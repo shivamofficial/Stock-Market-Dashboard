@@ -153,6 +153,13 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+               <Item
+              title="Latest IPO"
+              to="/ipo"
+              icon={<BarChartOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
 
             <Typography
               variant="h6"
